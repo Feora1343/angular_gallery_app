@@ -1,0 +1,30 @@
+{
+  "name": "weekend_challenge_4_angular_gallery_app",
+  "version": "1.0.0",
+  "description": "Breaking everything down into \"less is more\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feora1343/weekend_challenge_4_angular_gallery_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Feora1343/weekend_challenge_4_angular_gallery_app/issues"
+  },
+  "homepage": "https://github.com/Feora1343/weekend_challenge_4_angular_gallery_app#readme",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "angular": "^1.6.9",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.2",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {}
+}

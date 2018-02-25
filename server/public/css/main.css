@@ -1,0 +1,144 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; }
+  
+  ul {
+    list-style: none; }
+  
+  h1 { 
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-align: center; }
+
+.gods-list {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.gods-item {
+    flex: 1 0 33%;
+    width: 33%;
+    max-width: 33%;
+    margin-bottom: 40px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 860px) {
+      .gods-item {
+        flex: 1 0 50%;
+        width: 50%;
+        max-width: 50%; 
+    } 
+}
+
+@media screen and (max-width: 600px) {
+      .gods-item {
+        flex: 1 0 100%;
+        width: 100%;
+        max-width: 100%; 
+    } 
+}
+
+.gods-image {
+    height: 300px;
+    width: 300px;
+
+    user-select: none;
+    box-shadow: 0 1px #ffffff inset, 0 1px 3px rgba(34, 25, 25, 0.4); 
+}
+
+.gods-image:hover {
+    cursor: pointer; 
+}
+
+@media screen and (max-width: 1000px) {
+    .gods-image {
+    height: 250px;
+    width: 250px; 
+    } 
+}
+
+.gods-caption {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    transform: translateX(-50%); 
+}
+
+@media screen and (max-width: 1000px) {
+        .gods-caption {
+        height: 250px;
+        width: 250px; 
+    } 
+}
+
+.gods-description {
+    padding: 10px 40px 10px 20px;
+    user-select: none; }
+
+.gods-controls {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    line-height: 1;
+    transition: position 250ms; 
+}
+        
+.gods-controls:hover {
+        cursor: pointer; 
+}
+
+.gods-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 1000px) {
+    .gods-container {
+    width: 250px; 
+    } 
+}
+
+.gods-follower {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+    
+@media screen and (max-width: 1000px) {
+    .gods-follower {
+    width: 250px; 
+    } 
+}
+  
+.gods-follower-btn {
+    margin: 0 10px 0 0;
+    color: #000;
+    transition: all 250ms; 
+}
+
+.gods-follower-btn:hover {
+      color: #f14579;
+      cursor: pointer; 
+}
+  
+.gods-follower-count {
+    margin: 10px 0;
+    user-select: none; 
+}

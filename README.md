@@ -33,12 +33,12 @@ To run this on your computer you will need to...
 - :black_square_button: Display 9 pictures. See wireframes below as references
  - [https://imgur.com/e8l1nAH](gallery on initial page load)
  - [https://imgur.com/CGAxlpE](gallery on an image click)
-- :black_square_button: When someone clicks on a picture, a brief synposis should appear on the display of that photo
+- :heavy_check_mark: When someone clicks on a picture, a brief synposis should appear on the display of that photo
 - :black_square_button: Display a button/font-icon that allows a user to favorite/like a photo
-- :black_square_button: :red_circle: Show a display on how many the favorite/like button is clicked :red_circle:
+- :heavy_check_mark: :red_circle: Show a display on how many the favorite/like button is clicked :red_circle:
 - :black_square_button: Upload your app to heroku
-- :black_square_button: Store data in arrays and objects
-- :black_square_button: :red_circle: Add Bootstrap and make the app responsive :red_circle:
+- :heavy_check_mark: Store data in arrays and objects
+- :heavy_check_mark: :red_circle: Add Bootstrap and make the app responsive :red_circle:
 - :black_square_button: :heavy_exclamation_mark: Create a form that will take comments for each photo. :heavy_exclamation_mark:
 - :black_square_button: :heavy_exclamation_mark: Display the comments with a `Show Comments` button is clicked :heavy_exclamation_mark:
 - :black_square_button: :heavy_exclamation_mark: Create routes to GET and POST new images, comments, view count and likes. :heavy_exclamation_mark:
