@@ -9,7 +9,7 @@ const path = require( 'path' );
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); // NEEDED FOR ANGULARJS
 app.use(express.static('server/public'));
-app.use('/foods', foodRouter);
+// app.use('/routerName', routerName);
 
 let port = process.env.PORT || 5000;
 app.listen(port, function () {
