@@ -28,10 +28,12 @@ This is from a previous project and has been modified to be more generic. -->
             </div>
           </div>
           <div class="gods-follower" ng-controller="followersController as fg">
-            <div class="gods-follower-btn" ng-src="{{image.godSymbol}}" ng-click="fg.increaseFollowers()">
+            <div class="gods-follower-btn" ng-click="fg.increaseFollowers()"><br>
+                <img class"gods-symbol" ng-src="{{image.godSymbol}}">
             <p class="gods-follower-count">{{fg.followerCount}} followers</p>
             </div>
           </div>
+        </div>
         </li>
       </ul>
     </main>

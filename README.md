@@ -34,7 +34,7 @@ To run this on your computer you will need to...
  - [https://imgur.com/e8l1nAH](gallery on initial page load)
  - [https://imgur.com/CGAxlpE](gallery on an image click)
 - :heavy_check_mark: When someone clicks on a picture, a brief synposis should appear on the display of that photo
-- :black_square_button: Display a button/font-icon that allows a user to favorite/like a photo
+- :heavy_check_mark: Display a button/font-icon that allows a user to favorite/like a photo
 - :heavy_check_mark: :red_circle: Show a display on how many the favorite/like button is clicked :red_circle:
 - :black_square_button: Upload your app to heroku
 - :heavy_check_mark: Store data in arrays and objects
