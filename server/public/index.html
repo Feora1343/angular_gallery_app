@@ -20,7 +20,7 @@ This is from a previous project and has been modified to be more generic. -->
           <div class="gods-container" ng-click="galleryToggle = !galleryToggle">
             <img class="gods-image" ng-src="{{image.godImage}}" alt="{{image.godDescription}}">
             <div class="gods-caption" ng-show="galleryToggle">
-              <p class="gods-description">{{image.godName}}<br><br>{{image.godDescription}}<br><br>{{image.godAlignment}}</p>
+              <span class="gods-description"><h4>{{image.godName}}</h4><br><br><h5>{{image.godDescription}}</h5><br><br><h4>{{image.godAlignment}}</h4></span>
           </div>
             <div class="gods-toggle">
               <span ng-hide="galleryToggle"></span>
@@ -30,8 +30,8 @@ This is from a previous project and has been modified to be more generic. -->
           <div class="gods-follower" ng-controller="followersController as fg">
             <div class="gods-follower-btn" ng-click="fg.increaseFollowers()"><br>
                 <img class"gods-symbol" ng-src="{{image.godSymbol}}">
-            <p class="gods-follower-count">{{fg.followerCount}} followers</p>
             </div>
+            <span class="gods-follower-count"><h6>{{fg.followerCount}} followers</h6></span>
           </div>
         </div>
         </li>
