@@ -3,7 +3,6 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const pool = require('../modules/pool');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); // NEEDED FOR ANGULARJS
