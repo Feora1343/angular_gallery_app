@@ -32,8 +32,6 @@ To run this on your computer you will need to...
 
 ## Tasks
 - :heavy_check_mark: Display 9 pictures. See wireframes below as references
- - [https://imgur.com/e8l1nAH](gallery on initial page load)
- - [https://imgur.com/CGAxlpE](gallery on an image click)
 - :heavy_check_mark: When someone clicks on a picture, a brief synposis should appear on the display of that photo
 - :heavy_check_mark: Display a button/font-icon that allows a user to favorite/like a photo
 - :heavy_check_mark: Show a display on how many the favorite/like button is clicked
