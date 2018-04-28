@@ -1,29 +1,16 @@
-# Project Planning and Management
-Breaking everything down into "less is more".
-
 ## What Are We Building It With?
 We will be using a PEAN solution stack, except without a database.
 
-We will then throw the app on heroku.
-[You can view the app on heroku here.](https://desolate-ocean-90839.herokuapp.com/)
-
-To run this on your computer you will need to...
-
-* Download the ZIP of this repo or clone it locally
-* In terminal/bash/powershell and the directory, run `npm install`
-* Once `npm install` is complete, start the server with `npm start`
-* You should be able to view the application via web browser `localhost:5000`
-
 ```          
-,________,         .--------,  _Request_    .---------,         
-|________|       ,'_______,'|   -> | ->   ,'________,'|        
-| HTML 5 |      | JS      | |      |      | _______ | |        
-| CSS    |      | Angular | |      |      | Node.js | |        
-| Boot   | <--  |         | |      |      | Express | |              
-|  strap |      |         | ;   <- | <-   | _______ | ;        
-|________|      |_________|'  _Response_  |_________|'         
-  Client       DOM Manipulator         Server & Framework
-        *Front End*                        *Back End*              
+,________,         .----------,  _Request_    .---------,         
+|________|       ,'_________,'|   -> | ->   ,'________,'|        
+| HTML 5 |      | AngularJS | |      |      | _______ | |        
+| CSS    |      |           | |      |      | Node.js | |        
+| Boot   | <--  |           | |      |      | Express | |              
+|  strap |      |           | ;   <- | <-   | _______ | ;        
+|________|      |___________|'  _Response_  |_________|'         
+  Client        Client Logic                   Server
+        *Front End*                          *Back End*              
 ```
 
 ## Building Repo Tasks
