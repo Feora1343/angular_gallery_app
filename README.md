@@ -36,10 +36,7 @@ To run this on your computer you will need to...
  - [https://imgur.com/CGAxlpE](gallery on an image click)
 - :heavy_check_mark: When someone clicks on a picture, a brief synposis should appear on the display of that photo
 - :heavy_check_mark: Display a button/font-icon that allows a user to favorite/like a photo
-- :heavy_check_mark: :red_circle: Show a display on how many the favorite/like button is clicked :red_circle:
+- :heavy_check_mark: Show a display on how many the favorite/like button is clicked
 - :heavy_check_mark: Upload your app to heroku
 - :heavy_check_mark: Store data in arrays and objects
-- :heavy_check_mark: :red_circle: Add Bootstrap and make the app responsive :red_circle:
-- :black_square_button: :heavy_exclamation_mark: Create a form that will take comments for each photo. :heavy_exclamation_mark:
-- :black_square_button: :heavy_exclamation_mark: Display the comments with a `Show Comments` button is clicked :heavy_exclamation_mark:
-- :black_square_button: :heavy_exclamation_mark: Create routes to GET and POST new images, comments, view count and likes. :heavy_exclamation_mark:
+- :heavy_check_mark: Add Bootstrap and make the app responsive
